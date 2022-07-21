@@ -15,9 +15,8 @@ of taxi service drivers and cars
 ---
 #### Features:
 * driver registration
-* adding cars (model, manufacturer)
-* creation of driver-car connection, which allows to display 
-cars attached to the driver (or car drivers)
+* adding cars, drivers, and manufacturers
+* add drivers to car
 ***
 ### Technologies used:
 * Apache Tomcat (as servlet container)
@@ -35,7 +34,7 @@ Before you begin, make sure you have all the below installed:
 
 Next steps:
 1. Fork and clone this project
-2. Let's set up the configuration for tomcat
+2. Set up the configuration for Tomcat
 3. To get the actual parameters of the database tables, run script from the resources/init_db.sql file in the Workbench.
 4. To connect to database in your application you need change configuration information in the file from /util/ConnectionUtil.java to the ones you specified when installing MySQL
   Finally, you can start the application
