@@ -1,6 +1,7 @@
 # Taxi Service
 ***
 #### A single web-application:
+
 The Taxi Service application provides an opportunity to register new 
 and authorize existing drivers in the database. 
 It is also possible to add new cars to the database, 
@@ -10,6 +11,7 @@ The user of the Taxi Service can add a driver to the car,
 and one car can have several drivers, and one driver can drive several cars.
 Can be used to keep records 
 of taxi service drivers and cars
+
 ---
 #### Features:
 * driver registration
