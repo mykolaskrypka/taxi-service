@@ -1,21 +1,39 @@
-﻿# Taxi-service
-## Project description:
-A single web-application with the ability to register a driver, 
-add cars and other simple actions. Can be used to keep records 
+# Taxi Service
+***
+#### A single web-application:
+The Taxi Service application provides an opportunity to register new 
+and authorize existing drivers in the database. 
+It is also possible to add new cars to the database, 
+the main information about which consists of the model and manufacturer.
+A car manufacturer should be created before adding a car. 
+The user of the Taxi Service can add a driver to the car, 
+and one car can have several drivers, and one driver can drive several cars.
+Can be used to keep records 
 of taxi service drivers and cars
 ---
-## Features:
+#### Features:
 * driver registration
 * adding cars (model, manufacturer)
 * creation of driver-car connection, which allows to display 
 cars attached to the driver (or car drivers)
 ***
 ### Technologies used:
-Before you begin, make sure you have all the below installed:
-* Tomcat 9.0.63 (as servlet container)
-* MySql (as DB)
-* MySQL Workbench 8.0 CE
+* Apache Tomcat (as servlet container)
+* MySQL, MySQL Workbench
+* JDBC
+* Servlet
+* JSTL
+* Maven Checkstyle Plugin
+
 ***
-### Getting started
-* To get the actual parameters of the database tables, run script from the resources/init_db.sql file in the Workbench.
-* Let's set up the configuration for tomcat 
+### Getting started:
+Before you begin, make sure you have all the below installed:
+* Tomcat (as servlet container)
+* MySQl (as DB), MySQL Workbench
+
+Next steps:
+1. Fork and clone this project
+2. Let's set up the configuration for tomcat
+3. To get the actual parameters of the database tables, run script from the resources/init_db.sql file in the Workbench.
+4. To connect to database in your application you need change configuration information in the file from /util/ConnectionUtil.java to the ones you specified when installing MySQL
+  Finally, you can start the application
